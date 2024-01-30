@@ -1,9 +1,0 @@
-{
-    "uid": "toggl",
-    "title": "Toggl Track",
-    "subtitle": "https://accounts.toggl.com/track/login/",
-    "arg": "https://accounts.toggl.com/track/login/",
-    "icon": {
-        "path": "icons/toggl.png"
-    }
-}

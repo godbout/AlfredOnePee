@@ -1,9 +1,0 @@
-{
-    "uid": "hackthebox",
-    "title": "Hack The Box",
-    "subtitle": "https://academy.hackthebox.com/login",
-    "arg": "https://academy.hackthebox.com/login",
-    "icon": {
-        "path": "icons/hackthebox.png"
-    }
-}
