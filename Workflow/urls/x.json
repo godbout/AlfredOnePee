@@ -1,0 +1,9 @@
+{
+    "uid": "x",
+    "title": "X",
+    "subtitle": "https://twitter.com/i/flow/login",
+    "arg": "https://twitter.com/i/flow/login",
+    "icon": {
+        "path": "icons/x.png"
+    }
+}
