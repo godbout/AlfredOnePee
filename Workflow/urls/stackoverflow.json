@@ -1,0 +1,9 @@
+{
+    "uid": "stackoverflow",
+    "title": "Stack Overflow",
+    "subtitle": "https://stackoverflow.com/users/login",
+    "arg": "https://stackoverflow.com/users/login",
+    "icon": {
+        "path": "icons/stackoverflow.png"
+    }
+}
