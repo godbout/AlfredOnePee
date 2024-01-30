@@ -1,4 +1,6 @@
 {
+    "uid": "github",
+    "skipknowledge": true,
     "title": "GitHub",
     "subtitle": "https://github.com/login",
     "arg": "https://github.com/login",
