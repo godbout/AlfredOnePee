@@ -1,0 +1,10 @@
+{
+    "uid": "hq.sleeplessmind.com.mo",
+    "skipknowledge": true,
+    "title": "Company HQ",
+    "subtitle": "https://hq.sleeplessmind.com.mo/login",
+    "arg": "https://hq.sleeplessmind.com.mo/login",
+    "icon": {
+        "path": "icons/hq.sleeplessmind.com.mo.png"
+    }
+}
