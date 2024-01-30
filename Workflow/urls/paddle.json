@@ -1,0 +1,9 @@
+{
+    "uid": "paddle",
+    "title": "Paddle",
+    "subtitle": "https://login.paddle.com/login",
+    "arg": "https://login.paddle.com/login",
+    "icon": {
+        "path": "icons/paddle.png"
+    }
+}

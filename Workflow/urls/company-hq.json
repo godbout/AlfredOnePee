@@ -1,0 +1,9 @@
+{
+    "uid": "company-hq",
+    "title": "Company HQ",
+    "subtitle": "https://hq.sleeplessmind.com.mo/login",
+    "arg": "https://hq.sleeplessmind.com.mo/login",
+    "icon": {
+        "path": "icons/company-hq.png"
+    }
+}
