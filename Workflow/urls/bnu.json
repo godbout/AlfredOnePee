@@ -1,0 +1,10 @@
+{
+    "uid": "bnu",
+    "skipknowledge": true,
+    "title": "BNU Online",
+    "subtitle": "https://online.bnu.com.mo/ebank/bnu/login.jsp?lang=E&loginMethod=login",
+    "arg": "https://online.bnu.com.mo/ebank/bnu/login.jsp?lang=E&loginMethod=login",
+    "icon": {
+        "path": "icons/bnu.png"
+    }
+}
