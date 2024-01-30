@@ -1,6 +1,5 @@
 {
     "uid": "toggl",
-    "skipknowledge": true,
     "title": "Toggl Track",
     "subtitle": "https://accounts.toggl.com/track/login/",
     "arg": "https://accounts.toggl.com/track/login/",
