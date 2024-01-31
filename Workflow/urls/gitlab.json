@@ -1,0 +1,9 @@
+{
+    "uid": "gitlab",
+    "title": "GitLab",
+    "subtitle": "https://gitlab.com/users/sign_in",
+    "arg": "https://gitlab.com/users/sign_in",
+    "icon": {
+        "path": "icons/gitlab.png"
+    }
+}
