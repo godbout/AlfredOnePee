@@ -1,0 +1,9 @@
+{
+    "uid": "reddit",
+    "title": "Reddit",
+    "subtitle": "https://www.reddit.com/login/",
+    "arg": "https://www.reddit.com/login/",
+    "icon": {
+        "path": "icons/reddit.png"
+    }
+}
