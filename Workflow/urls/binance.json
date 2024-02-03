@@ -1,0 +1,9 @@
+{
+    "uid": "binance",
+    "title": "Binance",
+    "subtitle": "https://accounts.binance.com/en/login",
+    "arg": "https://accounts.binance.com/en/login",
+    "icon": {
+        "path": "icons/binance.png"
+    }
+}
