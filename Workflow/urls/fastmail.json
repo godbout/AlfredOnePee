@@ -1,0 +1,9 @@
+{
+    "uid": "fastmail",
+    "title": "Fastmail",
+    "subtitle": "https://app.fastmail.com/login/",
+    "arg": "https://app.fastmail.com/login/",
+    "icon": {
+        "path": "icons/fastmail.png"
+    }
+}
