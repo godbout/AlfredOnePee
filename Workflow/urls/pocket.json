@@ -1,0 +1,9 @@
+{
+    "uid": "pocket",
+    "title": "Pocket",
+    "subtitle": "https://getpocket.com/login",
+    "arg": "https://getpocket.com/login",
+    "icon": {
+        "path": "icons/pocket.png"
+    }
+}
