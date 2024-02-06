@@ -1,0 +1,9 @@
+{
+    "uid": "porkbun",
+    "title": "Porkbun",
+    "subtitle": "https://porkbun.com/account/loginOnly",
+    "arg": "https://porkbun.com/account/loginOnly",
+    "icon": {
+        "path": "icons/porkbun.png"
+    }
+}
