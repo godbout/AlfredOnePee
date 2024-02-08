@@ -1,0 +1,10 @@
+{
+    "uid": "banquepopulaire",
+    "title": "Banque Populaire",
+    "subtitle": "https://www.banquepopulaire.fr/se-connecter/sso?service=cyber",
+    "arg": "https://www.banquepopulaire.fr/se-connecter/sso?service=cyber",
+    "icon": {
+        "path": "icons/banquepopulaire.png"
+    },
+    "match": "bplc bpalc banque populaire"
+}

@@ -4,8 +4,6 @@
 <dict>
 	<key>bundleid</key>
 	<string>mo.com.sleeplessmind.AlfredOnePee</string>
-	<key>category</key>
-	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>50B0CD10-4D52-4898-9C05-DD3A34A829C3</key>
@@ -88,6 +86,7 @@
 EOB
 
 for f in urls/*.json; do cat $f; echo ","; done;
+for g in custom/*.json; do cat $g; echo ","; done;
 
 cat &lt;&lt; EOB
 		]
@@ -161,7 +160,28 @@ EOB</string>
 			<key>variable</key>
 			<string>skipknowledge</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string></string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string>Toggl Track</string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>toggltrack</string>
+		</dict>
 	</array>
+	<key>variablesdontexport</key>
+	<array/>
 	<key>version</key>
 	<string>0.1.0</string>
 	<key>webaddress</key>
