@@ -86,7 +86,6 @@
 EOB
 
 for f in urls/*.json; do cat $f; echo ","; done;
-for g in custom/*.json; do cat $g; echo ","; done;
 
 cat &lt;&lt; EOB
 		]
