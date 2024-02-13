@@ -14,7 +14,7 @@ public struct Workflow {
     public static func `do`() -> Bool {
         switch ProcessInfo.processInfo.environment["action"] {
         default:
-            return false
+            return true
         }
     }
 

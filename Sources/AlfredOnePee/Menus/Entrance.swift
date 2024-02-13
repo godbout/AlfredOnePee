@@ -12,7 +12,25 @@ class Entrance {
     }
     
     static func results() -> String {
-        ScriptFilter.output()
+        return
+"""
+{
+    "items": [
+        {
+            "uid": "github",
+            "title": "GitHub",
+            "subtitle": "https://github.com/login",
+            "arg": "do",
+            "variables": {
+                "url": "https://github.com/login"
+            },
+            "icon": {
+                "path": "resources/items/icons/github.png"
+            }
+        }
+    ]
+}
+"""
     }
     
 }
