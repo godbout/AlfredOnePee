@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		913F0B672B7B6262004CC1D3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913F0B662B7B6262004CC1D3 /* main.swift */; };
+		918DC0562B7B643A00C55144 /* Workflow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DC0552B7B643A00C55144 /* Workflow.swift */; };
+		918DC0592B7B648100C55144 /* AlfredWorkflowScriptFilter in Frameworks */ = {isa = PBXBuildFile; productRef = 918DC0582B7B648100C55144 /* AlfredWorkflowScriptFilter */; };
+		918DC05C2B7B64AE00C55144 /* Entrance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918DC05B2B7B64AE00C55144 /* Entrance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,8 @@
 /* Begin PBXFileReference section */
 		913F0B632B7B6262004CC1D3 /* AlfredOnePee */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlfredOnePee; sourceTree = BUILT_PRODUCTS_DIR; };
 		913F0B662B7B6262004CC1D3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		918DC0552B7B643A00C55144 /* Workflow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workflow.swift; sourceTree = "<group>"; };
+		918DC05B2B7B64AE00C55144 /* Entrance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entrance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				918DC0592B7B648100C55144 /* AlfredWorkflowScriptFilter in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,9 +63,19 @@
 		913F0B652B7B6262004CC1D3 /* AlfredOnePee */ = {
 			isa = PBXGroup;
 			children = (
+				918DC05A2B7B64A900C55144 /* Menus */,
 				913F0B662B7B6262004CC1D3 /* main.swift */,
+				918DC0552B7B643A00C55144 /* Workflow.swift */,
 			);
 			path = AlfredOnePee;
+			sourceTree = "<group>";
+		};
+		918DC05A2B7B64A900C55144 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				918DC05B2B7B64AE00C55144 /* Entrance.swift */,
+			);
+			path = Menus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,6 +94,9 @@
 			dependencies = (
 			);
 			name = AlfredOnePee;
+			packageProductDependencies = (
+				918DC0582B7B648100C55144 /* AlfredWorkflowScriptFilter */,
+			);
 			productName = AlfredOnePee;
 			productReference = 913F0B632B7B6262004CC1D3 /* AlfredOnePee */;
 			productType = "com.apple.product-type.tool";
@@ -106,6 +125,9 @@
 				Base,
 			);
 			mainGroup = 913F0B5A2B7B6262004CC1D3;
+			packageReferences = (
+				918DC0572B7B648100C55144 /* XCRemoteSwiftPackageReference "AlfredWorkflowScriptFilter" */,
+			);
 			productRefGroup = 913F0B642B7B6262004CC1D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -120,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				918DC05C2B7B64AE00C55144 /* Entrance.swift in Sources */,
+				918DC0562B7B643A00C55144 /* Workflow.swift in Sources */,
 				913F0B672B7B6262004CC1D3 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +313,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		918DC0572B7B648100C55144 /* XCRemoteSwiftPackageReference "AlfredWorkflowScriptFilter" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:godbout/AlfredWorkflowScriptFilter.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		918DC0582B7B648100C55144 /* AlfredWorkflowScriptFilter */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 918DC0572B7B648100C55144 /* XCRemoteSwiftPackageReference "AlfredWorkflowScriptFilter" */;
+			productName = AlfredWorkflowScriptFilter;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 913F0B5B2B7B6262004CC1D3 /* Project object */;
 }
