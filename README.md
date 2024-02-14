@@ -15,11 +15,11 @@ https://github.com/godbout/AlfredOnePee/assets/121373/62a04d08-0e8e-4137-89d3-13
 # PHILOSOPHY (YES. SORRY.)
 
 currently there's no way to ping iCloud Keychain's passwords/URLs etc. there's no API.
-BUT also 1Password has been sucking balls since v8. not even talking about the horrendous non-native UI, but where v7 was removing frictions and make password management straightforward, v8 brings extra bullshit clicks and shit keyboard (and windows) management lol wtf. where's the small team who cared about UX rather than customer count? anyways.
+BUT also 1Password has been sucking balls since v8. not even talking about the horrendous non-native UI, but where v7 was removing frictions and make password management straightforward, v8 brings extra bullshit clicks and shit keyboard and windows management lol wtf. where's the small team who cared about UX rather than customer count? anyways.
 
-so the idea is to launch login URLs from Alfred and get macOS and iCloud Keychain to automatically prepare the prompts. smooth and flawless whether you use passwords and OTPs, or passkeys.
+so the idea with OnePee is to launch login URLs from Alfred and get macOS and iCloud Keychain to automatically prepare the prompts for us. smooth and flawless whether you use passwords and OTPs, or passkeys.
 
-because currently we still can't grab your personal URLs, the Workflow will come with an expansive list. you'll be able to enable or disable the Service you need. and if you can't find your Service, just open an issue and i'll add it.
+because currently we can't automatically grab your personal URLs, OnePee will come with an expansive list. you'll be able to enable or disable the Services you need. and if you can't find your Service, just open an issue and i'll add it.
 
 # ROADMAP
 
