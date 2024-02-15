@@ -21,6 +21,31 @@ so the idea with OnePee is to launch login URLs from Alfred and get macOS and iC
 
 because currently we can't automatically grab your personal URLs, OnePee will come with an expansive list. you'll be able to enable or disable the Services you need. and if you can't find your Service, just open an issue and i'll add it.
 
+# CURRENT SUPPORTED SERVICES
+
+* [9GAG](https://9gag.com/login)
+* [Alfred Forum](https://www.alfredforum.com/login/)
+* [GitHub](https://github.com/login)
+* [Binance](https://accounts.binance.com/en/login)
+* [Bitstamp](https://www.bitstamp.net/onboarding/login/)
+* [Coinbase](https://login.coinbase.com/signin)
+* [Fastmail](https://app.fastmail.com/login/)
+* [GitLab](https://gitlab.com/users/sign_in)
+* [Hack The Box](https://academy.hackthebox.com/login)
+* [IMDb](https://www.imdb.com/ap/signin?openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0)
+* [KeepSolid](https://id.keepsolid.com/login)
+* [Microsoft Account](https://login.live.com/login.srf)
+* [Paddle](https://login.paddle.com/login)
+* [Ploi](https://ploi.io/login)
+* [Pocket](https://getpocket.com/login)
+* [Porkbun](https://porkbun.com/account/loginOnly)
+* [Quora](https://quora.com)
+* [Reddit](https://www.reddit.com/login/)
+* [Stack Overflow](https://stackoverflow.com/users/login)
+* [Toggl Track](https://accounts.toggl.com/track/login/)
+* [Wise](https://wise.com/login)
+* [X](https://twitter.com/i/flow/login)
+
 # ROADMAP
 
 * adding more and more Services upon request
