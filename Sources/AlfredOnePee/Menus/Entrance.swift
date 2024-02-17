@@ -140,6 +140,17 @@ class Entrance {
             }
         },
         {
+            "title": "Linode",
+            "subtitle": "https://login.linode.com/login",
+            "arg": "do",
+            "variables": {
+                "url": "https://login.linode.com/login"
+            },
+            "icon": {
+                "path": "resources/results/icons/linode.png"
+            }
+        },
+        {
             "title": "Microsoft Account",
             "subtitle": "https://login.live.com/login.srf",
             "arg": "do",
