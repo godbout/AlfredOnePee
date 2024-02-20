@@ -107,6 +107,17 @@ class Entrance {
         },
         {
             "title": "Hack The Box",
+            "subtitle": "https://app.hackthebox.com/login",
+            "arg": "do",
+            "variables": {
+                "url": "https://app.hackthebox.com/login"
+            },
+            "icon": {
+                "path": "resources/results/icons/hackthebox.png"
+            }
+        },
+        {
+            "title": "Hack The Box Academy",
             "subtitle": "https://academy.hackthebox.com/login",
             "arg": "do",
             "variables": {
