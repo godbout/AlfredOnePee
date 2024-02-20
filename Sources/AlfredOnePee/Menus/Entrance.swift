@@ -177,7 +177,7 @@ class Entrance {
             "subtitle": "https://login.paddle.com/login",
             "arg": "do",
             "variables": {
-                "url": "https://login.paddle.com/login"
+                "url": "https://vendors.paddle.com/"
             },
             "icon": {
                 "path": "resources/results/icons/paddle.png"
