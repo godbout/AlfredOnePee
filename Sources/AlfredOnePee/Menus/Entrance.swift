@@ -173,6 +173,17 @@ class Entrance {
             }
         },
         {
+            "title": "NearlyFreeSpeech",
+            "subtitle": "https://members.nearlyfreespeech.net/login/",
+            "arg": "do",
+            "variables": {
+                "url": "https://members.nearlyfreespeech.net/"
+            },
+            "icon": {
+                "path": "resources/results/icons/nearlyfreespeech.png"
+            }
+        },
+        {
             "title": "Paddle",
             "subtitle": "https://login.paddle.com/login",
             "arg": "do",
