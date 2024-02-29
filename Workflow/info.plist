@@ -4,6 +4,8 @@
 <dict>
 	<key>bundleid</key>
 	<string>mo.com.sleeplessmind.AlfredOnePee</string>
+	<key>category</key>
+	<string>Productivity</string>
 	<key>connections</key>
 	<dict>
 		<key>0AC39E1C-5FB5-4692-9D04-6E9B18FF79EB</key>
@@ -137,8 +139,6 @@
 				<integer>0</integer>
 				<key>hotmod</key>
 				<integer>0</integer>
-				<key>hotstring</key>
-				<string></string>
 				<key>leftcursor</key>
 				<false/>
 				<key>modsmode</key>
@@ -415,9 +415,30 @@
 			<key>variable</key>
 			<string>workflow_keyword</string>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<string></string>
+				<key>placeholder</key>
+				<string>~/Dropbox/Alfred/Workflows/OnePee</string>
+				<key>required</key>
+				<false/>
+				<key>trim</key>
+				<true/>
+			</dict>
+			<key>description</key>
+			<string>path where you store your own custom .yaml login files. e.g.: ~/Dropbox/Alfred/Workflows/OnePee</string>
+			<key>label</key>
+			<string>Custom Logins Path</string>
+			<key>type</key>
+			<string>textfield</string>
+			<key>variable</key>
+			<string>custom_logins_path</string>
+		</dict>
 	</array>
 	<key>version</key>
-	<string>0.3.0</string>
+	<string>0.4.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/godbout/AlfredOnePee</string>
 </dict>

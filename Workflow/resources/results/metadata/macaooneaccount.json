@@ -1,9 +1,0 @@
-{
-    "uid": "macaooneaccount",
-    "title": "Macao One Account",
-    "subtitle": "https://account.gov.mo/en/login",
-    "arg": "https://account.gov.mo/en/login",
-    "icon": {
-        "path": "icons/macaooneaccount.png"
-    }
-}

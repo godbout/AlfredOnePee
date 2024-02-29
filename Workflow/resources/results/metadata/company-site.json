@@ -1,9 +1,0 @@
-{
-    "uid": "company-site",
-    "title": "Company Site",
-    "subtitle": "https://sleeplessmind.com.mo/wp-login.php",
-    "arg": "https://sleeplessmind.com.mo/wp-login.php",
-    "icon": {
-        "path": "icons/company-site.png"
-    }
-}

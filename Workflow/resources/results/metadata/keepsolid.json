@@ -1,9 +1,0 @@
-{
-    "uid": "keepsolid",
-    "title": "KeepSolid",
-    "subtitle": "https://id.keepsolid.com/login",
-    "arg": "https://id.keepsolid.com/login",
-    "icon": {
-        "path": "icons/keepsolid.png"
-    }
-}

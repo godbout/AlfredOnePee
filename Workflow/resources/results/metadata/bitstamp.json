@@ -1,9 +1,0 @@
-{
-    "uid": "bitstamp",
-    "title": "Bitstamp",
-    "subtitle": "https://www.bitstamp.net/onboarding/login/",
-    "arg": "https://www.bitstamp.net/onboarding/login/",
-    "icon": {
-        "path": "icons/bitstamp.png"
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "uid": "9gag",
-    "title": "9GAG",
-    "subtitle": "https://9gag.com/login",
-    "arg": "https://9gag.com/login",
-    "icon": {
-        "path": "icons/9gag.png"
-    }
-}

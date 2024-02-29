@@ -1,9 +1,0 @@
-{
-    "uid": "microsoftaccount",
-    "title": "Microsoft Account",
-    "subtitle": "https://login.live.com/login.srf",
-    "arg": "https://login.live.com/login.srf",
-    "icon": {
-        "path": "icons/microsoftaccount.png"
-    }
-}

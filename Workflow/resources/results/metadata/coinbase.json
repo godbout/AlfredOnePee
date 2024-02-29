@@ -1,9 +1,0 @@
-{
-    "uid": "coinbase",
-    "title": "Coinbase",
-    "subtitle": "https://login.coinbase.com/signin",
-    "arg": "https://login.coinbase.com/signin",
-    "icon": {
-        "path": "icons/coinbase.png"
-    }
-}

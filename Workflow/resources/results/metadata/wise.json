@@ -1,9 +1,0 @@
-{
-    "uid": "wise",
-    "title": "Wise",
-    "subtitle": "https://wise.com/login",
-    "arg": "https://wise.com/login",
-    "icon": {
-        "path": "icons/wise.png"
-    }
-}

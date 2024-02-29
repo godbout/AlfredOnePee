@@ -1,9 +1,0 @@
-{
-    "uid": "quora",
-    "title": "Quora",
-    "subtitle": "https://quora.com",
-    "arg": "https://quora.com",
-    "icon": {
-        "path": "icons/quora.png"
-    }
-}

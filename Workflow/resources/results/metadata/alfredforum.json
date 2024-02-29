@@ -1,9 +1,0 @@
-{
-    "uid": "alfredforum",
-    "title": "Alfred Forum",
-    "subtitle": "https://www.alfredforum.com/login/",
-    "arg": "https://www.alfredforum.com/login/",
-    "icon": {
-        "path": "icons/alfredforum.png"
-    }
-}

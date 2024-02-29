@@ -1,9 +1,0 @@
-{
-    "uid": "ploi",
-    "title": "Ploi",
-    "subtitle": "https://ploi.io/login",
-    "arg": "https://ploi.io/login",
-    "icon": {
-        "path": "icons/ploi.png"
-    }
-}

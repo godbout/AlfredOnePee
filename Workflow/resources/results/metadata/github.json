@@ -1,9 +1,0 @@
-{
-    "uid": "github",
-    "title": "GitHub",
-    "subtitle": "https://github.com/login",
-    "arg": "https://github.com/login",
-    "icon": {
-        "path": "icons/github.png"
-    }
-}
