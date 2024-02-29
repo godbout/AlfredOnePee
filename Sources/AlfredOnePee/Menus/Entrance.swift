@@ -1,4 +1,14 @@
+import Foundation
 import AlfredWorkflowScriptFilter
+import Yams
+
+
+struct Login: Codable {
+    let title: String
+    let url: String
+    let icon: String?
+    let match: String?
+}
 
 
 class Entrance {
@@ -12,291 +22,72 @@ class Entrance {
     }
     
     static func results() -> String {
-        return
-"""
-{
-    "items": [
-        {
-            "title": "9GAG",
-            "subtitle": "https://9gag.com/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://9gag.com/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/9gag.png"
-            }
-        },
-        {
-            "title": "Alfred Forum",
-            "subtitle": "https://www.alfredforum.com/login/",
-            "arg": "do",
-            "variables": {
-                "url": "https://www.alfredforum.com/login/"
-            },
-            "arg": "https://www.alfredforum.com/login/",
-            "icon": {
-                "path": "resources/results/icons/alfredforum.png"
-            }
-        },
-        {
-            "title": "GitHub",
-            "subtitle": "https://github.com/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://github.com/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/github.png"
-            }
-        },
-        {
-            "title": "Binance",
-            "subtitle": "https://accounts.binance.com/en/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://accounts.binance.com/en/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/binance.png"
-            }
-        },
-        {
-            "title": "Bitstamp",
-            "subtitle": "https://www.bitstamp.net/onboarding/login/",
-            "arg": "do",
-            "variables": {
-                "url": "https://www.bitstamp.net/onboarding/login/"
-            },
-            "icon": {
-                "path": "resources/results/icons/bitstamp.png"
-            }
-        },
-        {
-            "title": "Coinbase",
-            "subtitle": "https://login.coinbase.com/signin",
-            "arg": "do",
-            "variables": {
-                "url": "https://login.coinbase.com/signin"
-            },
-            "icon": {
-                "path": "resources/results/icons/coinbase.png"
-            }
-        },
-        {
-            "title": "Fastmail",
-            "subtitle": "https://app.fastmail.com/login/",
-            "arg": "do",
-            "variables": {
-                "url": "https://app.fastmail.com/login/"
-            },
-            "icon": {
-                "path": "resources/results/icons/fastmail.png"
-            }
-        },
-        {
-            "title": "GitLab",
-            "subtitle": "https://gitlab.com/users/sign_in",
-            "arg": "do",
-            "variables": {
-                "url": "https://gitlab.com/users/sign_in"
-            },
-            "icon": {
-                "path": "resources/results/icons/gitlab.png"
-            }
-        },
-        {
-            "title": "Hack The Box",
-            "subtitle": "https://app.hackthebox.com/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://app.hackthebox.com/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/hackthebox.png"
-            }
-        },
-        {
-            "title": "Hack The Box Academy",
-            "subtitle": "https://academy.hackthebox.com/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://academy.hackthebox.com/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/hackthebox.png"
-            }
-        },
-        {
-            "title": "IMDb",
-            "subtitle": "https://www.imdb.com/ap/signin?openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0",
-            "arg": "do",
-            "variables": {
-                "url": "https://www.imdb.com/ap/signin?openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=imdb_us&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0"
-            },
-            "icon": {
-                "path": "resources/results/icons/imdb.png"
-            },
-            "match": "imdb internet movie database"
-        },
-        {
-            "title": "KeepSolid",
-            "subtitle": "https://id.keepsolid.com/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://id.keepsolid.com/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/keepsolid.png"
-            }
-        },
-        {
-            "title": "Linode",
-            "subtitle": "https://login.linode.com/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://login.linode.com/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/linode.png"
-            }
-        },
-        {
-            "title": "Microsoft Account",
-            "subtitle": "https://login.live.com/login.srf",
-            "arg": "do",
-            "variables": {
-                "url": "https://login.live.com/login.srf"
-            },
-            "icon": {
-                "path": "resources/results/icons/microsoftaccount.png"
-            }
-        },
-        {
-            "title": "NearlyFreeSpeech",
-            "subtitle": "https://members.nearlyfreespeech.net/login/",
-            "arg": "do",
-            "variables": {
-                "url": "https://members.nearlyfreespeech.net/"
-            },
-            "icon": {
-                "path": "resources/results/icons/nearlyfreespeech.png"
-            }
-        },
-        {
-            "title": "Paddle",
-            "subtitle": "https://login.paddle.com/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://vendors.paddle.com/"
-            },
-            "icon": {
-                "path": "resources/results/icons/paddle.png"
-            }
-        },
-        {
-            "title": "Ploi",
-            "subtitle": "https://ploi.io/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://ploi.io/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/ploi.png"
-            }
-        },
-        {
-            "title": "Pocket",
-            "subtitle": "https://getpocket.com/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://getpocket.com/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/pocket.png"
-            }
-        },
-        {
-            "title": "Porkbun",
-            "subtitle": "https://porkbun.com/account/loginOnly",
-            "arg": "do",
-            "variables": {
-                "url": "https://porkbun.com/account/loginOnly"
-            },
-            "icon": {
-                "path": "resources/results/icons/porkbun.png"
-            }
-        },
-        {
-            "title": "Quora",
-            "subtitle": "https://quora.com",
-            "arg": "do",
-            "variables": {
-                "url": "https://quora.com"
-            },
-            "icon": {
-                "path": "resources/results/icons/quora.png"
-            }
-        },
-        {
-            "title": "Reddit",
-            "subtitle": "https://www.reddit.com/login/",
-            "arg": "do",
-            "variables": {
-                "url": "https://www.reddit.com/login/"
-            },
-            "icon": {
-                "path": "resources/results/icons/reddit.png"
-            }
-        },
-        {
-            "title": "Stack Overflow",
-            "subtitle": "https://stackoverflow.com/users/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://stackoverflow.com/users/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/stackoverflow.png"
-            }
-        },
-        {
-            "title": "Toggl Track",
-            "subtitle": "https://accounts.toggl.com/track/login/",
-            "arg": "do",
-            "variables": {
-                "url": "https://accounts.toggl.com/track/login/"
-            },
-            "icon": {
-                "path": "resources/results/icons/toggl.png"
-            }
-        },
-        {
-            "title": "Wise",
-            "subtitle": "https://wise.com/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://wise.com/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/wise.png"
-            }
-        },
-        {
-            "title": "X",
-            "subtitle": "https://twitter.com/i/flow/login",
-            "arg": "do",
-            "variables": {
-                "url": "https://twitter.com/i/flow/login"
-            },
-            "icon": {
-                "path": "resources/results/icons/x.png"
-            },
-            "match": "x twitter"
-        }
-    ]
-}
-"""
+        for curatedLogin in curatedLogins() { ScriptFilter.item(add(curatedLogin)) }
+        for customLogin in customLogins() { ScriptFilter.item(add(customLogin)) }
+        
+        return ScriptFilter.output()
     }
     
+}
+
+
+extension Entrance {
+
+    private static func curatedLogins() -> [Login] {
+        guard
+            let alfredPreferences = ProcessInfo.processInfo.environment["alfred_preferences"],
+            let alfredWorkflowUID = ProcessInfo.processInfo.environment["alfred_workflow_uid"]
+        else { return [] }
+            
+        return loadLoginsFrom(path: "\(alfredPreferences)/workflows/\(alfredWorkflowUID)/resources/results/")
+    }
+    
+    private static func customLogins() -> [Login] {
+        guard let customLoginsPath = ProcessInfo.processInfo.environment["custom_logins_path"] else { return [] }
+        
+        return loadLoginsFrom(path: (customLoginsPath as NSString).expandingTildeInPath)
+    }
+    
+    private static func loadLoginsFrom(path: String) -> [Login] {
+        var logins: [Login] = []
+        
+        let url = URL(fileURLWithPath: path, isDirectory: true)
+        guard let metadataFiles = try? FileManager.default.contentsOfDirectory(at: url, includingPropertiesForKeys: nil, options: .skipsHiddenFiles) else { return [] }
+        let yamlMetadataFiles = metadataFiles.filter { $0.pathExtension == "yaml" || $0.pathExtension == "yml" }
+                
+        for yamlMetadataFile in yamlMetadataFiles {
+            let yamlFile = URL(fileURLWithPath: yamlMetadataFile.relativePath)
+            guard let yamlData = try? Data(contentsOf: yamlFile) else { return [] }
+
+            let decoder = YAMLDecoder()
+            guard let decoded = try? decoder.decode(Login.self, from: yamlData) else { return [] }
+            
+            let filenameWithoutExtension = yamlFile.deletingPathExtension().relativePath
+            let iconExists = FileManager.default.fileExists(atPath: "\(filenameWithoutExtension).png")
+            
+            logins.append(
+                Login(title: decoded.title , url: decoded.url, icon: iconExists ? "\(filenameWithoutExtension).png" : nil, match: decoded.match)
+            )
+        }
+                
+        return logins
+    }
+    
+    private static func add(_ login: Login) -> Item {
+        let item = Item(title: login.title)
+            .subtitle(login.url)
+            .arg("do")
+            .variables(Variable(name: "url", value: login.url))
+        
+        if let icon = login.icon {
+            item.icon(Icon(path: icon))
+        }
+        
+        if let match = login.match {
+            item.match(match)
+        }
+        
+        return item
+    }
+
 }
