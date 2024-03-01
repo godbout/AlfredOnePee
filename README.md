@@ -69,5 +69,5 @@ on top of the mandatory `title` and `url` keys in the `.yaml` file you can add t
 
 * adding more and more Services upon request
 * add possibility to enable or disable a Service so that it doesn't show up in your list
-* add a way to set your own custom Services/URLs
+* ~~add a way to set your own custom Services/URLs~~
 * integrate with the Alfred Gallery
