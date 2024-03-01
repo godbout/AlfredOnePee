@@ -56,16 +56,9 @@ because currently we can't automatically grab your personal URLs, OnePee will co
 
 to create your own Custom Logins:
 1. set the `Custom Logins Path` in the [Workflow Configuration](https://www.alfredapp.com/help/workflows/workflow-configuration/) to the folder where you're gonna store your Logins information
-2. add a `.yaml` file in that folder containing your Logins info. e.g.:
+2. store the `.yaml` and optionally `.png` files of your Custom Logins in that folder
 
-`mylogin.yaml`
-```yaml
-title: My Login
-url: https://mylogin.com/login
-```
-3. for the Alfred Result icon, just name your icon the same as your yaml file, e.g.: `mylogin.png`
-
-you can see the [Curated Logins source] for reference.
+check out the integrated [Curated Logins](https://github.com/godbout/AlfredOnePee/tree/master/Workflow/resources/results) for reference.
 
 # ROADMAP
 
