@@ -62,8 +62,8 @@ to create your own Custom Logins:
 
 check out the integrated [Curated Logins](https://github.com/godbout/AlfredOnePee/tree/master/Workflow/resources/results) for reference.
 
-on top of the mandatory `title` and `url` keys you can add the optional:
-`match`: by default Alfred will filter according to the title. if you wanna add different filtering terms, set the [match](https://www.alfredapp.com/help/workflows/inputs/script-filter/json/)
+on top of the mandatory `title` and `url` keys in the `.yaml` file you can add the optional:
+* `match`: by default Alfred will filter Results according to the `title`. if you wanna add different filtering terms, just set the [match](https://www.alfredapp.com/help/workflows/inputs/script-filter/json/)
 
 # ROADMAP
 
