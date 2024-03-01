@@ -21,7 +21,9 @@ so the idea with OnePee is to launch login URLs from Alfred and get macOS and iC
 
 because currently we can't automatically grab your personal URLs, OnePee will come with an expansive list. you'll be able to enable or disable the Services you need. and if you can't find your Service, just open an issue and i'll add it.
 
-# CURRENT SUPPORTED SERVICES
+# LOGINS
+
+## Curated
 
 * [9GAG](https://9gag.com/login)
 * [Alfred Forum](https://www.alfredforum.com/login/)
@@ -49,6 +51,21 @@ because currently we can't automatically grab your personal URLs, OnePee will co
 * [Toggl Track](https://accounts.toggl.com/track/login/)
 * [Wise](https://wise.com/login)
 * [X](https://twitter.com/i/flow/login)
+
+## Custom
+
+to create your own Custom Logins:
+1. set the `Custom Logins Path` in the `Workflow Configuration` to the folder where you're gonna store your Logins information
+2. add a `.yaml` file in that folder containing your Logins info. e.g.:
+
+`mylogin.yaml`
+```yaml
+title: My Login
+url: https://mylogin.com/login
+```
+3. for the Alfred Result icon, just name your icon the same as your yaml file, e.g.: `mylogin.png`
+
+you can see the [Curated Logins source] for reference.
 
 # ROADMAP
 
