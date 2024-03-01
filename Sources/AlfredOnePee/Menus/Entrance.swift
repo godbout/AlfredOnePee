@@ -4,14 +4,24 @@ import Yams
 
 
 struct Login: Codable {
+    
     let title: String
     let url: String
-    let icon: String?
+    let realUrl: String?
     let match: String?
+    let icon: String?
+    
+    enum CodingKeys: String, CodingKey {
+        case title, url
+        case realUrl = "real_url"
+        case match, icon
+    }
+
 }
 
 
 class Entrance {
+    
     static let shared = Entrance()
     
     private init() {}
@@ -66,7 +76,7 @@ extension Entrance {
             let iconExists = FileManager.default.fileExists(atPath: "\(filenameWithoutExtension).png")
             
             logins.append(
-                Login(title: decoded.title , url: decoded.url, icon: iconExists ? "\(filenameWithoutExtension).png" : nil, match: decoded.match)
+                Login(title: decoded.title , url: decoded.url, realUrl: decoded.realUrl, match: decoded.match, icon: iconExists ? "\(filenameWithoutExtension).png" : nil)
             )
         }
                 
@@ -77,7 +87,7 @@ extension Entrance {
         let item = Item(title: login.title)
             .subtitle(login.url)
             .arg("do")
-            .variables(Variable(name: "url", value: login.url))
+            .variables(Variable(name: "url", value: login.realUrl ?? login.url))
         
         if let icon = login.icon {
             item.icon(Icon(path: icon))
