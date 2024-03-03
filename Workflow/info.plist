@@ -419,6 +419,32 @@
 			<key>config</key>
 			<dict>
 				<key>default</key>
+				<string>sort_by_usage</string>
+				<key>pairs</key>
+				<array>
+					<array>
+						<string>Name</string>
+						<string>sort_by_name</string>
+					</array>
+					<array>
+						<string>Usage</string>
+						<string>sort_by_usage</string>
+					</array>
+				</array>
+			</dict>
+			<key>description</key>
+			<string>what's your favorite? name, or usage?</string>
+			<key>label</key>
+			<string>Sort Logins by</string>
+			<key>type</key>
+			<string>popupbutton</string>
+			<key>variable</key>
+			<string>sort_by</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
 				<string></string>
 				<key>placeholder</key>
 				<string>~/Dropbox/Alfred/Workflows/OnePee</string>
