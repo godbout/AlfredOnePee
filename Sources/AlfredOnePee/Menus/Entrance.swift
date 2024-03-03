@@ -35,6 +35,8 @@ class Entrance {
         for curatedLogin in curatedLogins() { ScriptFilter.item(add(curatedLogin)) }
         for customLogin in customLogins() { ScriptFilter.item(add(customLogin)) }
         
+        ScriptFilter.sortItems()
+        
         return ScriptFilter.output()
     }
     
@@ -44,6 +46,7 @@ class Entrance {
 extension Entrance {
 
     private static func curatedLogins() -> [Login] {
+        // TODO: this shoulnd't be repeated. grab once at the beginning
         guard
             let alfredPreferences = ProcessInfo.processInfo.environment["alfred_preferences"],
             let alfredWorkflowUID = ProcessInfo.processInfo.environment["alfred_workflow_uid"]
@@ -53,6 +56,7 @@ extension Entrance {
     }
     
     private static func customLogins() -> [Login] {
+        // TODO: this shoulnd't be repeated. grab once at the beginning
         guard let customLoginsPath = ProcessInfo.processInfo.environment["custom_logins_path"] else { return [] }
         
         return loadLoginsFrom(path: (customLoginsPath as NSString).expandingTildeInPath)
@@ -84,10 +88,19 @@ extension Entrance {
     }
     
     private static func add(_ login: Login) -> Item {
+        // TODO: this shoulnd't be repeated. pass as params
+        let sortLoginsBy = ProcessInfo.processInfo.environment["sort_by"] ?? "sort_by_usage"
+        
         let item = Item(title: login.title)
             .subtitle(login.url)
             .arg("do")
             .variables(Variable(name: "url", value: login.realUrl ?? login.url))
+                  
+        if sortLoginsBy == "sort_by_usage" {
+            // TODO: filename better? even though url will be unique if user not dumb
+            // filename is for sure unique unique
+            item.uid(login.title.lowercased())
+        }
         
         if let icon = login.icon {
             item.icon(Icon(path: icon))
