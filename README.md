@@ -29,7 +29,6 @@ because currently we can't automatically grab your personal URLs, OnePee will co
 
 * [9GAG](https://9gag.com/login)
 * [Alfred Forum](https://www.alfredforum.com/login/)
-* [GitHub](https://github.com/login)
 * [Binance](https://accounts.binance.com/en/login)
 * [Bitstamp](https://www.bitstamp.net/onboarding/login/)
 * [Coinbase](https://login.coinbase.com/signin)
