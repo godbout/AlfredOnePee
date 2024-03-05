@@ -2,7 +2,53 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>9gag</key>
+	<true/>
+	<key>binance</key>
+	<true/>
+	<key>bitstamp</key>
+	<true/>
+	<key>coinbase</key>
+	<true/>
 	<key>custom_logins_path</key>
 	<string>~/Dropbox/Preferences/Alfred/Workflows/OnePee</string>
+	<key>fastmail</key>
+	<true/>
+	<key>gitlab</key>
+	<true/>
+	<key>hackthebox</key>
+	<true/>
+	<key>hacktheboxacademy</key>
+	<true/>
+	<key>imdb</key>
+	<true/>
+	<key>keepsolid</key>
+	<true/>
+	<key>linode</key>
+	<true/>
+	<key>microsoftaccount</key>
+	<true/>
+	<key>nearlyfreespeech</key>
+	<true/>
+	<key>paddle</key>
+	<true/>
+	<key>ploi</key>
+	<true/>
+	<key>pocket</key>
+	<true/>
+	<key>porkbun</key>
+	<true/>
+	<key>quora</key>
+	<true/>
+	<key>reddit</key>
+	<true/>
+	<key>stackoverflow</key>
+	<true/>
+	<key>toggltrack</key>
+	<true/>
+	<key>wise</key>
+	<true/>
+	<key>x</key>
+	<true/>
 </dict>
 </plist>
