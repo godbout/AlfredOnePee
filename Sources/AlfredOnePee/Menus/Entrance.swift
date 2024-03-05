@@ -3,23 +3,6 @@ import AlfredWorkflowScriptFilter
 import Yams
 
 
-struct Login: Codable {
-    
-    let title: String
-    let url: String
-    let realUrl: String?
-    let match: String?
-    let icon: String?
-    
-    enum CodingKeys: String, CodingKey {
-        case title, url
-        case realUrl = "real_url"
-        case match, icon
-    }
-
-}
-
-
 class Entrance {
     
     static let shared = Entrance()
@@ -46,23 +29,21 @@ class Entrance {
 extension Entrance {
 
     private static func curatedLogins() -> [Login] {
-        // TODO: this shoulnd't be repeated. grab once at the beginning
         guard
-            let alfredPreferences = ProcessInfo.processInfo.environment["alfred_preferences"],
-            let alfredWorkflowUID = ProcessInfo.processInfo.environment["alfred_workflow_uid"]
+            let alfredPreferences = Workflow.alfredPreferences,
+            let alfredWorkflowUID = Workflow.alfredWorkflowUID
         else { return [] }
-            
-        return loadLoginsFrom(path: "\(alfredPreferences)/workflows/\(alfredWorkflowUID)/resources/results/")
+        
+        return loadLoginsFrom(path: "\(alfredPreferences)/workflows/\(alfredWorkflowUID)/resources/results/", type: .curated)
     }
     
     private static func customLogins() -> [Login] {
-        // TODO: this shoulnd't be repeated. grab once at the beginning
-        guard let customLoginsPath = ProcessInfo.processInfo.environment["custom_logins_path"] else { return [] }
+        guard let customLoginsPath = Workflow.customLoginsPath else { return [] }
         
-        return loadLoginsFrom(path: (customLoginsPath as NSString).expandingTildeInPath)
+        return loadLoginsFrom(path: (customLoginsPath as NSString).expandingTildeInPath, type: .custom)
     }
     
-    private static func loadLoginsFrom(path: String) -> [Login] {
+    private static func loadLoginsFrom(path: String, type: LoginType) -> [Login] {
         var logins: [Login] = []
         
         let url = URL(fileURLWithPath: path, isDirectory: true)
@@ -76,11 +57,14 @@ extension Entrance {
             let decoder = YAMLDecoder()
             guard let decoded = try? decoder.decode(Login.self, from: yamlData) else { return [] }
             
-            let filenameWithoutExtension = yamlFile.deletingPathExtension().relativePath
-            let iconExists = FileManager.default.fileExists(atPath: "\(filenameWithoutExtension).png")
+            let fileWithoutExtension = yamlFile.deletingPathExtension().relativePath
+            let filename = yamlFile.deletingPathExtension().lastPathComponent
+            let iconExists = FileManager.default.fileExists(atPath: "\(fileWithoutExtension).png")
+            
+            guard type == .custom || ProcessInfo.processInfo.environment[filename] == "1" else { continue }
             
             logins.append(
-                Login(title: decoded.title , url: decoded.url, realUrl: decoded.realUrl, match: decoded.match, icon: iconExists ? "\(filenameWithoutExtension).png" : nil)
+                Login(title: decoded.title , url: decoded.url, realUrl: decoded.realUrl, match: decoded.match, icon: iconExists ? "\(fileWithoutExtension).png" : nil)
             )
         }
                 
@@ -88,17 +72,12 @@ extension Entrance {
     }
     
     private static func add(_ login: Login) -> Item {
-        // TODO: this shoulnd't be repeated. pass as params
-        let sortLoginsBy = ProcessInfo.processInfo.environment["sort_by"] ?? "sort_by_usage"
-        
         let item = Item(title: login.title)
             .subtitle(login.url)
             .arg("do")
             .variables(Variable(name: "url", value: login.realUrl ?? login.url))
                   
-        if sortLoginsBy == "sort_by_usage" {
-            // TODO: filename better? even though url will be unique if user not dumb
-            // filename is for sure unique unique
+        if Workflow.sortLoginsBy == "sort_by_usage" {
             item.uid(login.title.lowercased())
         }
         
