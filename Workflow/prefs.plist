@@ -40,6 +40,8 @@
 	<true/>
 	<key>quora</key>
 	<true/>
+	<key>realvnc</key>
+	<true/>
 	<key>reddit</key>
 	<true/>
 	<key>stackoverflow</key>
