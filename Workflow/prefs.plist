@@ -12,6 +12,8 @@
 	<true/>
 	<key>custom_logins_path</key>
 	<string>~/Dropbox/Preferences/Alfred/Workflows/OnePee</string>
+	<key>digitalocean</key>
+	<true/>
 	<key>fastmail</key>
 	<true/>
 	<key>gitlab</key>
