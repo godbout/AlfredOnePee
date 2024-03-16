@@ -52,6 +52,7 @@ because currently we can't automatically grab your personal URLs, OnePee will co
 * [Reddit](https://www.reddit.com/login/)
 * [Stack Overflow](https://stackoverflow.com/users/login)
 * [Toggl Track](https://accounts.toggl.com/track/login/)
+* [Vultr](https://my.vultr.com)
 * [Wise](https://wise.com/login)
 * [X](https://twitter.com/i/flow/login)
 
