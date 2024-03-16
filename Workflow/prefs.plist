@@ -50,6 +50,8 @@
 	<true/>
 	<key>toggltrack</key>
 	<true/>
+	<key>tryhackme</key>
+	<true/>
 	<key>vultr</key>
 	<true/>
 	<key>wise</key>
