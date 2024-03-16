@@ -46,6 +46,8 @@
 	<true/>
 	<key>reddit</key>
 	<true/>
+	<key>stackexchange</key>
+	<true/>
 	<key>stackoverflow</key>
 	<true/>
 	<key>toggltrack</key>

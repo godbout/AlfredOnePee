@@ -888,6 +888,25 @@ make sure to open an issue there to request your favorite Logins!</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
+				<string>Stack Exchange</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>stackexchange</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string>Stack Overflow</string>
 			</dict>
 			<key>description</key>
@@ -926,25 +945,6 @@ make sure to open an issue there to request your favorite Logins!</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Vultr</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string></string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>vultr</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<false/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
 				<string>TryHackMe</string>
 			</dict>
 			<key>description</key>
@@ -955,6 +955,25 @@ make sure to open an issue there to request your favorite Logins!</string>
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>tryhackme</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Vultr</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>vultr</string>
 		</dict>
 		<dict>
 			<key>config</key>
@@ -1017,7 +1036,7 @@ make sure to open an issue there to request your favorite Logins!</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>0.8.0</string>
+	<string>0.9.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/godbout/AlfredOnePee</string>
 </dict>
