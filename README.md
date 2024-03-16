@@ -50,6 +50,7 @@ because currently we can't automatically grab your personal URLs, OnePee will co
 * [Quora](https://quora.com)
 * [RealVNC](https://manage.realvnc.com)
 * [Reddit](https://www.reddit.com/login/)
+* [Stack Exchange](https://meta.stackexchange.com/users/login)
 * [Stack Overflow](https://stackoverflow.com/users/login)
 * [Toggl Track](https://accounts.toggl.com/track/login/)
 * [Vultr](https://my.vultr.com)
