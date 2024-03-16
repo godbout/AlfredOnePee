@@ -32,6 +32,7 @@ because currently we can't automatically grab your personal URLs, OnePee will co
 * [Binance](https://accounts.binance.com/en/login)
 * [Bitstamp](https://www.bitstamp.net/onboarding/login/)
 * [Coinbase](https://login.coinbase.com/signin)
+* [DigitalOcean](https://cloud.digitalocean.com/login)
 * [Fastmail](https://app.fastmail.com/login/)
 * [GitHub](https://github.com/login)
 * [GitLab](https://gitlab.com/users/sign_in)
