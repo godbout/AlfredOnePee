@@ -32,6 +32,8 @@
 	<true/>
 	<key>nearlyfreespeech</key>
 	<true/>
+	<key>openexchangerates</key>
+	<true/>
 	<key>paddle</key>
 	<true/>
 	<key>ploi</key>
