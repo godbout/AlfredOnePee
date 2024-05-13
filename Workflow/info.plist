@@ -570,6 +570,25 @@ make sure to open an issue there to request your favorite Logins!</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
+				<string>Dropbox</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>dropbox</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string>Fastmail</string>
 			</dict>
 			<key>description</key>
@@ -1098,7 +1117,7 @@ make sure to open an issue there to request your favorite Logins!</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>0.10.0</string>
+	<string>0.11.0</string>
 	<key>webaddress</key>
 	<string>https://github.com/godbout/AlfredOnePee</string>
 </dict>

@@ -14,6 +14,8 @@
 	<string>~/Dropbox/Preferences/Alfred/Workflows/OnePee</string>
 	<key>digitalocean</key>
 	<true/>
+	<key>dropbox</key>
+	<true/>
 	<key>fastmail</key>
 	<true/>
 	<key>gitlab</key>
