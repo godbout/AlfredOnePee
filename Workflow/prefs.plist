@@ -4,6 +4,8 @@
 <dict>
 	<key>9gag</key>
 	<true/>
+	<key>amazon</key>
+	<true/>
 	<key>binance</key>
 	<true/>
 	<key>bitstamp</key>
