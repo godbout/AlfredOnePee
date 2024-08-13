@@ -22,6 +22,8 @@
 	<true/>
 	<key>gitlab</key>
 	<true/>
+	<key>goodreads</key>
+	<true/>
 	<key>hackthebox</key>
 	<true/>
 	<key>hacktheboxacademy</key>

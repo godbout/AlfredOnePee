@@ -665,6 +665,25 @@ make sure to open an issue there to request your favorite Logins!</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
+				<string>Goodreads</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>goodreads</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string>Hack The Box</string>
 			</dict>
 			<key>description</key>
@@ -1136,7 +1155,7 @@ make sure to open an issue there to request your favorite Logins!</string>
 		</dict>
 	</array>
 	<key>version</key>
-	<string>0.12.0</string>
+	<string>0.13.0-dev</string>
 	<key>webaddress</key>
 	<string>https://github.com/godbout/AlfredOnePee</string>
 </dict>
