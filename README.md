@@ -48,6 +48,7 @@ because currently we can't automatically grab your personal URLs, OnePee will co
 * [Linode](https://login.linode.com/login)
 * [Microsoft Account](https://login.live.com/login.srf)
 * [NearlyFreeSpeech](https://members.nearlyfreespeech.net/login/)
+* [Open Exchange Rates](https://openexchangerates.org/login)
 * [Paddle](https://login.paddle.com/login)
 * [Ploi](https://ploi.io/login)
 * [Pocket](https://getpocket.com/login)
