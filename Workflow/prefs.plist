@@ -16,6 +16,8 @@
 	<string>~/Dropbox/Preferences/Alfred/Workflows/OnePee</string>
 	<key>digitalocean</key>
 	<true/>
+	<key>dockerhub</key>
+	<true/>
 	<key>dropbox</key>
 	<true/>
 	<key>fastmail</key>
