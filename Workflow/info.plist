@@ -589,6 +589,25 @@ make sure to open an issue there to request your favorite Logins!</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
+				<string>Discord</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>discord</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
 				<string>Docker Hub</string>
 			</dict>
 			<key>description</key>
