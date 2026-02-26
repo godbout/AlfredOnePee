@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <code>1p</code> with iCloud Keychain.
+    <code>1p</code> with Apple Passwords.
 </p>
 
 https://github.com/godbout/AlfredOnePee/assets/121373/62a04d08-0e8e-4137-89d3-13313973037d
@@ -81,4 +81,4 @@ on top of the mandatory `title` and `url` keys in the `.yaml` file you can add t
 * adding more and more Services upon request
 * ~~add possibility to enable or disable a Service so that it doesn't show up in your list~~
 * ~~add a way to set your own custom Services/URLs~~
-* integrate with the Alfred Gallery
+* integrate with the Alfred Gallery (probably not gonna happen with a Workflow name like this one)
