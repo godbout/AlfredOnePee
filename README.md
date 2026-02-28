@@ -51,6 +51,7 @@ because currently we can't automatically grab your personal URLs, OnePee will co
 * [NearlyFreeSpeech](https://members.nearlyfreespeech.net/login/)
 * [Open Exchange Rates](https://openexchangerates.org/login)
 * [Paddle](https://login.paddle.com/login)
+* [PayPal](https://www.paypal.com/signin)
 * [Ploi](https://ploi.io/login)
 * [Pocket](https://getpocket.com/login)
 * [Porkbun](https://porkbun.com/account/loginOnly)
