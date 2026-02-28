@@ -1194,19 +1194,19 @@ make sure to open an issue there to request your favorite Logins!</string>
 			<dict>
 				<key>default</key>
 				<string></string>
+				<key>filtermode</key>
+				<integer>1</integer>
 				<key>placeholder</key>
 				<string>~/Dropbox/Alfred/Workflows/OnePee</string>
 				<key>required</key>
 				<false/>
-				<key>trim</key>
-				<true/>
 			</dict>
 			<key>description</key>
 			<string>path where you store your own custom .yaml login files. e.g.: ~/Dropbox/Alfred/Workflows/OnePee</string>
 			<key>label</key>
 			<string>Custom Logins Path</string>
 			<key>type</key>
-			<string>textfield</string>
+			<string>filepicker</string>
 			<key>variable</key>
 			<string>custom_logins_path</string>
 		</dict>
