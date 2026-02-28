@@ -34,6 +34,7 @@ because currently we can't automatically grab your personal URLs, OnePee will co
 * [Bitstamp](https://www.bitstamp.net/onboarding/login/)
 * [Coinbase](https://login.coinbase.com/signin)
 * [DigitalOcean](https://cloud.digitalocean.com/login)
+* [Discord](https://discord.com/login)
 * [Docker Hub](https://hub.docker.com/login/)
 * [Dropbox](https://www.dropbox.com/home)
 * [Fastmail](https://app.fastmail.com/login/)
