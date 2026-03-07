@@ -798,25 +798,6 @@ make sure to open an issue there to request your favorite Logins!</string>
 				<key>required</key>
 				<false/>
 				<key>text</key>
-				<string>Linode</string>
-			</dict>
-			<key>description</key>
-			<string></string>
-			<key>label</key>
-			<string></string>
-			<key>type</key>
-			<string>checkbox</string>
-			<key>variable</key>
-			<string>linode</string>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>default</key>
-				<false/>
-				<key>required</key>
-				<false/>
-				<key>text</key>
 				<string>KeepSolid</string>
 			</dict>
 			<key>description</key>
@@ -827,6 +808,25 @@ make sure to open an issue there to request your favorite Logins!</string>
 			<string>checkbox</string>
 			<key>variable</key>
 			<string>keepsolid</string>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>default</key>
+				<false/>
+				<key>required</key>
+				<false/>
+				<key>text</key>
+				<string>Linode</string>
+			</dict>
+			<key>description</key>
+			<string></string>
+			<key>label</key>
+			<string></string>
+			<key>type</key>
+			<string>checkbox</string>
+			<key>variable</key>
+			<string>linode</string>
 		</dict>
 		<dict>
 			<key>config</key>
