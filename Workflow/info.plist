@@ -102,7 +102,7 @@
 	<key>createdby</key>
 	<string>Guillaume Leclerc</string>
 	<key>description</key>
-	<string>The `1p` without 1Password</string>
+	<string>It's like `1p` but for Apple Passwords</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
