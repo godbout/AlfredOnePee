@@ -330,9 +330,20 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string>for now see the GitHub repo at: https://github.com/godbout/AlfredOnePee
+	<string>## WHAT IS THIS
 
-make sure to open an issue there to request your favorite Logins!</string>
+know the `1p` in Alfred? well it's the same but for Apple Passwords.
+
+![Login pages in Alfred](resources/images/alfred.png)
+![Alfred Forum in Safari](resources/images/browser.png)
+
+## WHY IS THIS
+
+well obviously starting with version 8 1Password is not anymore what it used to be: slow, hungry, not accessible, bad UI and UX, friction all over. but it's available for Windows! anyways, yeah, switch to Apple Passwords for a better life.
+
+## HOW IS THIS
+
+the most famous and common Login pages are handled by this Workflow. for your own personal logins there is a custom folder where you can add them. if you think a Login page should be handled by this Workflow instead you can write an issue on the [GitHub repo](https://github.com/godbout/AlfredOnePee)!</string>
 	<key>uidata</key>
 	<dict>
 		<key>0AC39E1C-5FB5-4692-9D04-6E9B18FF79EB</key>
