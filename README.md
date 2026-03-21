@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-    <code>1p</code> with Apple Passwords.
+    it's like <code>1p</code> but with Apple Passwords.
 </p>
 
 https://github.com/godbout/AlfredOnePee/assets/121373/62a04d08-0e8e-4137-89d3-13313973037d
