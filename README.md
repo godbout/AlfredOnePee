@@ -78,6 +78,10 @@ check out the integrated [Curated Logins](https://github.com/godbout/AlfredOnePe
 on top of the mandatory `title` and `url` keys in the `.yaml` file you can add the optional:
 * `match`: by default Alfred will filter Results according to the `title`. if you wanna add different filtering terms, just set the [match](https://www.alfredapp.com/help/workflows/inputs/script-filter/json/)
 
+# WHY THE CHANGE OF NAME
+
+i think the name Alfred OnePee (1p) was really funny but this was not [Alfred Gallery](https://alfred.app) compliant so yeah, sometimes you have to make concessions. so this Workflow is now called Alfred Toupie, pronounced TwoPee (2p), which means `spinning top` in French.
+
 # ROADMAP
 
 * adding more and more Services upon request
